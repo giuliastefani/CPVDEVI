@@ -3,10 +3,10 @@ function toggleBurner(burnerId) {
     const button = document.getElementById(`button${burnerId}`);
     burner.classList.toggle('on');
     if (burner.classList.contains('on')) {
-        burner.src = `img/burner${burnerId}onlm.png`;
+        burner.src = `images/burner${burnerId}ondm.png`;
         button.style.transform = `rotate(45deg)`;
     } else {
         button.style.transform = `rotate(0deg)`;
-        burner.src = `img/burner${burnerId}offlm.png`;
+        burner.src = `images/burner${burnerId}offdm.png`;
     }
 }

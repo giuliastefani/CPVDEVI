@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protótipo fogão acessível</title>
+    <link rel="stylesheet" href="css/style_dm.css">
+    <script src="js/script_dm.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index_lm.html">Clique aqui para alternar entre os temas claro/escuro</a>
+    </nav>
+
+    <div class="page">
+        <div class="stove">
+            <img class="burner" id="burner1" src="images/burner1offdm.png" alt="Boca do Fogão Número 1">
+            <img class="burner" id="burner2" src="images/burner2offdm.png" alt="Boca do Fogão Número 2">
+            <img class="burner" id="burner3" src="images/burner3offdm.png" alt="Boca do Fogão Número 3">
+            <img class="burner" id="burner4" src="images/burner4offdm.png" alt="Boca do Fogão Número 4">
+        </div>
+
+        <div class="controls">
+            <button id="button1" onclick="toggleBurner(1)">
+                <img src="images/button1dm.png" alt="Controle da Boca do Fogão Número 1">
+            </button>
+            <button id="button2" onclick="toggleBurner(2)">
+                <img src="images/button2dm.png" alt="Controle da Boca do Fogão Número 2">
+            </button>
+            <button id="button3" onclick="toggleBurner(3)">
+                <img src="images/button3dm.png" alt="Controle da Boca do Fogão Número 3">
+            </button>
+            <button id="button4" onclick="toggleBurner(4)">
+                <img src="images/button4dm.png" alt="Controle da Boca do Fogão Número 4">
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
